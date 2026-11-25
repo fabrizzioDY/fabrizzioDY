@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="banner-title banner-description">
+  <title id="banner-title">Fabrizzio</title>
+  <desc id="banner-description">Backend Developer · Software Engineering. Cherry blossoms frame a night scene with Mount Fuji, Tokyo Tower and a terminal at ~/dev/fabrizzio.</desc>
+  <defs>
+    <linearGradient id="night" x2="1" y2="1">
+      <stop stop-color="#171428"/><stop offset=".47" stop-color="#0d1429"/><stop offset="1" stop-color="#101c46"/>
+    </linearGradient>
+    <radialGradient id="horizon">
+      <stop stop-color="#2778d7" stop-opacity=".59"/><stop offset=".53" stop-color="#164c9e" stop-opacity=".35"/><stop offset="1" stop-color="#164c9e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-glow">
+      <stop stop-color="#7545c2" stop-opacity=".36"/><stop offset="1" stop-color="#7545c2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon-halo">
+      <stop stop-color="#7aa2f7" stop-opacity=".24"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon-face" x2=".75" y2="1">
+      <stop stop-color="#a2a2fc"/><stop offset="1" stop-color="#737bdb"/>
+    </linearGradient>
+    <pattern id="grid-lines" width="43" height="43" patternUnits="userSpaceOnUse">
+      <path d="M43 0H0V43" fill="none" stroke="#5786e1" stroke-width="1.6"/>
+    </pattern>
+    <radialGradient id="grid-fade">
+      <stop stop-color="white"/><stop offset=".52" stop-color="white" stop-opacity=".65"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="grid-masks" maskUnits="userSpaceOnUse" x="0" y="0" width="1500" height="500">
+      <ellipse cx="1213" cy="36" rx="248" ry="112" fill="url(#grid-fade)"/>
+      <ellipse cx="110" cy="427" rx="284" ry="151" fill="url(#grid-fade)"/>
+    </mask>
+    <linearGradient id="bark" x2=".8" y2="1">
+      <stop stop-color="#2a244e"/><stop offset=".56" stop-color="#302b65"/><stop offset="1" stop-color="#151b3b"/>
+    </linearGradient>
+    <linearGradient id="blossom" x1="0" y1="1" x2=".4" y2="0">
+      <stop stop-color="#5c3b85"/><stop offset=".54" stop-color="#a364b3"/><stop offset="1" stop-color="#c480c3"/>
+    </linearGradient>
+    <linearGradient id="loose-petal" x2="1" y2="1">
+      <stop stop-color="#dda0ce"/><stop offset="1" stop-color="#8550a0"/>
+    </linearGradient>
+    <symbol id="sakura" viewBox="-25 -25 50 50">
+      <path id="sakura-petal" fill="url(#blossom)" d="M0 2C-4-4-11-9-9-17c1-5 5-7 8-6l2 3 2-3c4 1 7 5 6 9C8-7 4-2 0 2Z"/>
+      <use xlink:href="#sakura-petal" transform="rotate(72)"/>
+      <use xlink:href="#sakura-petal" transform="rotate(144)"/>
+      <use xlink:href="#sakura-petal" transform="rotate(216)"/>
+      <use xlink:href="#sakura-petal" transform="rotate(288)"/>
+      <g fill="none" stroke="#552d70" stroke-width=".8" stroke-linecap="round">
+        <path d="M0 0l-1-9m2 9 3-7M0 0l8-3m-7 4 9 3M0 1l4 8m-5-8-3 8m3-9-9 3m9-4-8-4"/>
+      </g>
+      <path d="M-3 1l2-4 4 2-1 4-4 1Z" fill="#6d417d"/>
+      <path d="M-1-9h.1M4-7h.1M8-3h.1M10 4h.1M4 9h.1M-4 9h.1M-10 3h.1M-9-5h.1" stroke="#dfa0ce" stroke-width="1.4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="petal" viewBox="0 0 24 15">
+      <path d="M1 9C5 1 17-3 23 7c-2 0-2 2-1 3C15 17 6 15 1 9Z" fill="url(#loose-petal)"/>
+      <path d="M3 9c6-2 11-2 16-1" fill="none" stroke="#a05ca6" opacity=".55"/>
+    </symbol>
+    <linearGradient id="mountain" x2="0" y2="1">
+      <stop stop-color="#203965"/><stop offset=".72" stop-color="#0e2448"/><stop offset="1" stop-color="#10305c" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="snow" x2=".8" y2="1">
+      <stop stop-color="#5068a5"/><stop offset="1" stop-color="#283f78"/>
+    </linearGradient>
+    <linearGradient id="tower-light" x1="0" y1="1" x2="0" y2="0">
+      <stop stop-color="#f776b4"/><stop offset=".42" stop-color="#c05ce6"/><stop offset=".72" stop-color="#ffc1b5"/><stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <radialGradient id="tower-halo">
+      <stop stop-color="#f75aa8" stop-opacity=".49"/><stop offset="1" stop-color="#b857ed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="building-face" x2=".85" y2="0">
+      <stop stop-color="#10284d"/><stop offset="1" stop-color="#08162f"/>
+    </linearGradient>
+    <!-- Window patterns share a baseline; varying the cuts and widths breaks up the façades. -->
+    <pattern id="windows-cyan" width="17" height="15" patternUnits="userSpaceOnUse">
+      <path d="M2 2h4v1.6H2zM9 2h5v1.6H9zM2 7h4v1.6H2zM9 12h5v1.6H9z" fill="#3379c4"/>
+      <path d="M9 7h5v1.6H9zM2 12h4v1.6H2z" fill="#7dcfff" opacity=".75"/>
+    </pattern>
+    <pattern id="windows-purple" width="19" height="19" patternUnits="userSpaceOnUse">
+      <path d="M3 3h4v1.6H3zM11 8h5v1.6h-5zM11 14h5v1.6h-5z" fill="#4271b8" opacity=".78"/>
+      <path d="M11 3h5v1.6h-5zM3 14h4v1.6H3z" fill="#bb9af7" opacity=".8"/>
+    </pattern>
+    <pattern id="windows-band" width="27" height="21" patternUnits="userSpaceOnUse">
+      <path d="M2 3h8v1.8H2zM13 3h12v1.8H13zM2 9h23v1.8H2zM2 16h10v1.6H2zM16 16h7v1.6h-7z" fill="#3a9ee1"/>
+      <path d="M2 3h8v1.8H2zM16 16h7v1.6h-7z" fill="#7dcfff"/>
+    </pattern>
+    <symbol id="office-narrow" viewBox="0 0 32 72" preserveAspectRatio="none">
+      <path d="M2 8h3V5h9V0h1v5h14v4h3v63H0V8Z" fill="url(#building-face)"/>
+      <path d="M4 14h19v45H4z" fill="url(#windows-cyan)"/><path d="M26 11h4v61h-4z" fill="#0b1734"/>
+    </symbol>
+    <symbol id="office-slab" viewBox="0 0 44 54" preserveAspectRatio="none">
+      <path d="M0 5h5V2h34v4h5v48H0Z" fill="url(#building-face)"/>
+      <path d="M3 11h23v38H3zM31 15h8v29h-8z" fill="url(#windows-purple)"/>
+    </symbol>
+    <symbol id="office-band" viewBox="0 0 42 58" preserveAspectRatio="none">
+      <path d="M1 6h39v52H1z" fill="url(#building-face)"/>
+      <path d="M4 2h33v4H4z" fill="currentColor"/><path d="M2 0h37v8H2z" fill="currentColor" opacity=".13"/>
+      <path d="M6 12h26v35H6z" fill="url(#windows-band)"/>
+    </symbol>
+    <linearGradient id="terminal-body" x2=".8" y2="1">
+      <stop stop-color="#0c142a"/><stop offset="1" stop-color="#101b3a"/>
+    </linearGradient>
+    <linearGradient id="terminal-bar" x2="1" y2="1">
+      <stop stop-color="#111c36"/><stop offset="1" stop-color="#142142"/>
+    </linearGradient>
+    <linearGradient id="terminal-border" x2="1" y2="1">
+      <stop stop-color="#344371"/><stop offset="1" stop-color="#30386d"/>
+    </linearGradient>
+    <linearGradient id="prompt-color" x2="1" y2="0">
+      <stop stop-color="#7dcfff"/><stop offset=".46" stop-color="#a2a7fc"/><stop offset="1" stop-color="#e99acb"/>
+    </linearGradient>
+    <linearGradient id="name-color" x2="0" y2="1">
+      <stop stop-color="#fcfcff"/><stop offset="1" stop-color="#eceefa"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x2="0" y2="1">
+      <stop stop-color="#bb9af7"/><stop offset=".48" stop-color="#9d7cd8"/><stop offset="1" stop-color="#cc92ee"/>
+    </linearGradient>
+    <linearGradient id="wave-left" x2="1" y2=".4">
+      <stop stop-color="#632ca3" stop-opacity=".63"/><stop offset="1" stop-color="#443794" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="wave-right" x2="1" y2=".5">
+      <stop stop-color="#233771"/><stop offset=".56" stop-color="#29295e"/><stop offset="1" stop-color="#6735a0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1500" height="500"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <g id="night-sky">
+      <rect width="1500" height="500" fill="#1a1b26"/>
+      <rect width="1500" height="500" fill="url(#night)"/>
+      <ellipse cx="1165" cy="480" rx="730" ry="177" fill="url(#horizon)"/>
+      <ellipse cx="-31" cy="415" rx="360" ry="318" fill="url(#violet-glow)" opacity=".52"/>
+      <ellipse cx="1427" cy="110" rx="113" ry="102" fill="url(#moon-halo)"/>
+      <rect id="decorative-grids" width="1500" height="500" fill="url(#grid-lines)" mask="url(#grid-masks)" opacity=".29"/>
+    </g>
+
+    <g id="moon-and-clouds">
+      <circle cx="1428" cy="108" r="30.5" fill="url(#moon-face)"/>
+      <path d="M1402 98c5 6 10 2 15 4 5 3 3 12 11 13 7 0 12-9 19-7l5 4c-4 14-17 22-29 20-12-4-20-12-22-24Z" fill="#777dd6" opacity=".19"/>
+      <path d="M1410 90c7-8 19-10 28-6l-4 7-10 4-10-2Zm24 7 6-4 5 3-1 6-7 2Z" fill="#b6b8ff" opacity=".14"/>
+      <path d="M1309 158l26-4q3-5 9-4 6-9 15-1l7 5 28 4Zm81 60 30-5q6-5 15-3 6-9 19-5 7-1 12-10 13-16 34-8v31Zm-151 68 42-5q9-5 14-4 3-5 13-3 10-11 23-11 15-2 24 12 9-4 17 5l49 6Z" fill="#343873" opacity=".54"/>
+    </g>
+
+    <g id="cherry-branches">
+      <path d="M-22 70C33 51 61 26 82-8h19C77 26 43 54-17 80Zm35-9c53-18 92-31 124-40 28-8 60-13 106-29l18 1c-29 13-85 25-121 33L25 65Z" fill="url(#bark)"/>
+      <path d="M46 49C26 35 14 23-2 18l-4 4c17 8 22 20 40 32Zm65-19c19-5 33-15 42-33h8c-3 12-19 26-34 29Zm18-3c21-9 42-19 50-35h8c-13 20-21 24-48 34Z" fill="#28264e"/>
+      <path d="M106 35c23 7 39 17 57 31 20 15 44 19 74 33l-3-5c-21-12-44-15-67-32-21-15-36-23-54-29ZM31 55c-3 21 4 36 24 50l20 10-2-5c-14-8-40-25-35-55Zm139-40c24-5 55-5 80-1l13 8 4-2c-13-11-37-14-65-13Z" fill="url(#bark)"/>
+      <path d="M19 59c39-12 57-19 83-25m35 12 18 12m39 25 24 8m-183-23q3 17 11 23" fill="none" stroke="#505182" stroke-width="1.4" opacity=".39"/>
+      <g id="cherry-blossoms">
+        <use xlink:href="#sakura" x="-14" y="-2" width="42" height="43" transform="rotate(-17 7 19)"/>
+        <use xlink:href="#sakura" x="85" y="10" width="58" height="53" transform="rotate(12 114 36)"/>
+        <use xlink:href="#sakura" x="141" y="42" width="59" height="54" transform="rotate(-16 170 69)"/>
+        <use xlink:href="#sakura" x="5" y="66" width="49" height="44" transform="rotate(-23 30 88)" opacity=".91"/>
+        <use xlink:href="#sakura" x="241" y="-18" width="60" height="52" transform="rotate(17 271 8)"/>
+        <use xlink:href="#sakura" x="202" y="-13" width="28" height="26" opacity=".76"/>
+        <use xlink:href="#sakura" x="135" y="57" width="20" height="20" opacity=".77"/>
+        <use xlink:href="#sakura" x="66" y="48" width="26" height="29" transform="rotate(31 79 62)" opacity=".83"/>
+        <use xlink:href="#petal" x="37" y="100" width="19" height="12" transform="rotate(32 46 105)" opacity=".69"/>
+        <use xlink:href="#petal" x="73" y="115" width="22" height="15" transform="rotate(29 84 123)"/>
+        <use xlink:href="#petal" x="53" y="119" width="14" height="10" transform="rotate(65 60 124)" opacity=".87"/>
+        <use xlink:href="#petal" x="227" y="95" width="21" height="11" transform="rotate(24 237 101)"/>
+        <use xlink:href="#petal" x="210" y="81" width="15" height="9" transform="rotate(40 217 86)" opacity=".66"/>
+        <use xlink:href="#petal" x="308" y="53" width="17" height="9" transform="rotate(63 316 57)"/>
+        <use xlink:href="#petal" x="285" y="13" width="17" height="8" transform="rotate(16 293 17)"/>
+        <use xlink:href="#petal" x="34" y="188" width="16" height="9" transform="rotate(58 42 192)"/>
+        <use xlink:href="#petal" x="344" y="50" width="6" height="3" transform="rotate(-26 347 51)" opacity=".55"/>
+      </g>
+    </g>
+
+    <g id="mount-fuji">
+      <path d="M758 430C836 405 920 393 1009 357c46-20 83-41 125-60l14 2 11-5 9 3 10-1c47 27 72 45 111 62 59 25 118 44 211 58v45H758Z" fill="url(#mountain)"/>
+      <path d="M1021 354c42-20 73-39 113-57l14 2 11-5 9 3 10-1c34 19 59 37 86 51l-43-16 20 19-38-20 11 13-30-18 15 20-25-17 10 13-19-11-42 29 8-16-26 10 5-10-34 15 12-15-36 15 27-20Z" fill="url(#snow)"/>
+      <path d="M1134 300l-20 20-42 24 30-14-7 9 27-13-13 13 23-15-8 13 29-22-15 22 22-14-18 26 23-18 20 12-11-18 27 22-19-27 30 23-13-19 37 19-40-32-26-13-10-2-11 5Z" fill="#6380bb" opacity=".28"/>
+      <path d="m1148 300-6 11-14 10 10-3-24 25 16-9-10 17 23-23 10-20 8-8-7 16-3 11 14-13-2 8 11 9-4-13-8-17 11 10 13 8 20 11-15-15-18-13 4-4-9 1-9-3Z" fill="#253c73" opacity=".58"/>
+    </g>
+
+    <g id="city-skyline">
+      <g id="distant-buildings" opacity=".54">
+        <path d="M544 473v-9h19v-8h16v-9h16v9h12v-5h24v-10h26v9h10v-20h14v17h17v-13h22v-9h16v13h21v-8h16v-14h33v18h18v-8h24v10h21v-20h22v10h23v3h19v-17h19v12h24v-8h17v15h16v-19h24v-11h26v16h16v-8h22v13h18v-22h29v16h19v-8h21v-12h27v14h12v-21h32v12h17v-6h18v-11h22v8h18v-15h23v9h22v-13h21v-7h22v9h40v108H544Z" fill="#153363"/>
+        <use xlink:href="#office-slab" x="618" y="447" width="26" height="32"/><use xlink:href="#office-slab" x="668" y="432" width="21" height="36"/>
+        <use xlink:href="#office-narrow" x="809" y="416" width="18" height="54"/><use xlink:href="#office-slab" x="854" y="418" width="45" height="47"/>
+        <use xlink:href="#office-band" x="956" y="426" width="30" height="42" color="#a98dfb"/><use xlink:href="#office-narrow" x="1026" y="416" width="28" height="61"/>
+        <use xlink:href="#office-slab" x="1105" y="403" width="36" height="57"/><use xlink:href="#office-slab" x="1150" y="401" width="36" height="48"/>
+        <use xlink:href="#office-narrow" x="1273" y="381" width="27" height="65"/><use xlink:href="#office-slab" x="1310" y="384" width="48" height="54"/>
+        <use xlink:href="#office-narrow" x="1414" y="356" width="20" height="64"/><use xlink:href="#office-slab" x="1474" y="356" width="27" height="68"/>
+      </g>
+      <g id="streetscape-light">
+        <ellipse cx="1008" cy="451" rx="327" ry="36" fill="url(#horizon)"/>
+        <ellipse cx="1395" cy="403" rx="156" ry="56" fill="url(#horizon)"/>
+        <path d="M684 453h12m98 5h17m44-9h19m19 0h12m22 12h18m31-14h16m26 7h15m26-7h16m44-8h16m33-6h14m44-7h15m40-9h18m27-10h23m32-3h13" stroke="#7dcfff" stroke-width="3" opacity=".59"/>
+        <path d="M683 453h6m105 5h9m167 3h12m147-20h9m144-14h11m64-20h12m99-11h8" stroke="#bb9af7" stroke-width="3.4" opacity=".78"/>
+      </g>
+      <g id="near-buildings">
+        <use xlink:href="#office-band" x="706" y="415" width="41" height="56" color="#d66bda"/>
+        <use xlink:href="#office-slab" x="755" y="416" width="36" height="46"/>
+        <use xlink:href="#office-narrow" x="816" y="376" width="38" height="93"/>
+        <use xlink:href="#office-band" x="891" y="402" width="41" height="61" color="#56cff7"/>
+        <use xlink:href="#office-slab" x="928" y="399" width="36" height="56"/>
+        <use xlink:href="#office-narrow" x="988" y="371" width="39" height="91"/>
+        <use xlink:href="#office-slab" x="1046" y="401" width="28" height="56"/>
+        <use xlink:href="#office-slab" x="1081" y="415" width="43" height="46"/>
+        <use xlink:href="#office-narrow" x="1203" y="383" width="28" height="54"/>
+        <use xlink:href="#office-slab" x="1250" y="372" width="40" height="58"/>
+        <use xlink:href="#office-narrow" x="1307" y="326" width="37" height="98"/>
+        <use xlink:href="#office-narrow" x="1437" y="322" width="41" height="97"/>
+        <path d="M832 380h2m227 20h5m202-25h5m55-41h3m171 11h3" stroke="#ad79d1" stroke-width="1.2" opacity=".81"/>
+      </g>
+    </g>
+
+    <g id="tokyo-tower">
+      <ellipse cx="1385" cy="375" rx="67" ry="67" fill="url(#tower-halo)"/>
+      <ellipse cx="1385" cy="282" rx="23" ry="84" fill="url(#tower-halo)" opacity=".51"/>
+      <path d="M1385 194l1 43 3 10-1 19 3 32 4 31-2 10 5 35 11 23 12 12h-14l-10-13-7-3-5 1-7 1-9 14h-19l13-14 11-26 4-30-2-10 4-30 3-34-1-18 2-10Z" fill="#723674" opacity=".79"/>
+      <g fill="none" stroke="url(#tower-light)" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1350 410q25-23 29-70m41 70q-25-23-29-70M1361 410q19-25 22-69m27 69q-19-25-22-69m-11-14 6-57 2-35 2 35 7 57m-12-9 3-43 3 43m-3-79v-45" stroke-width="1.45"/>
+        <path d="m1379 342 14 12-17 2 20 13-24 1 28 13-34 1 42 13-49 2 16-16 17-13-14-14 13-14m-32 57 45-17-31-12 21-14-14-14m-3 19h18m-23 15h27m-35 13h42m-51 14h60m-41-76h19m-16-11h13m-12-9h11m-10-8h9m-7-9h6m-6-8h5m-7 10 9 10-11 9 13 10-15 7m16 0-14-9 12-8-10-9 8-10m-7-20h5m-6-6h7" stroke-width=".87"/>
+        <path d="M1383 228h4m-4 7h4m-5 16h6m-7 7h8m-9 13h10m-12 26h13m-14 12h15" stroke-width="2"/>
+      </g>
+      <path d="M1371 328h29l-3 11h-23z" fill="#a057bb"/><path d="M1371 330h29m-27 4h25m-22 5h20" stroke="#e199f1" stroke-width="1.2"/>
+      <path d="M1380 248h11l-2 4h-7zm-1 51h14l-1 5h-13z" fill="#ffc9bf"/>
+      <circle cx="1385" cy="194" r=".9" fill="#f7768e"/>
+    </g>
+
+    <g id="foreground-and-waves">
+      <path d="M0 500H354c70-12 95-32 155-33h50v-4h25v-14h11v11h22v7h22v-8h32v4h19v-13h35v9h24v-17h45v19h42v-5h18v-6h28v-14h38v15h17v9h23v-12h18v16h23v-10h23v8h26v-12h24v-11h22v7h29v-11h21v8h25v-18h25v13h20v-9h23v-15h33v12h24v-17h25v-8h26v7h24v10h22v-18h24v13h13v-16h28v11h22v-10h18v-4h5v109Z" fill="#0b1631"/>
+      <path d="M1129 500c92-46 142-36 204-17l32 17Z" fill="#162653"/>
+      <path d="M1212 500c113-52 187-92 288-72v72Z" fill="url(#wave-right)" opacity=".77"/>
+      <path d="M1243 500c95-51 169-82 257-70v70Z" fill="url(#wave-right)" opacity=".59"/>
+      <path d="M0 426c63 15 102 46 179 74H0Z" fill="url(#wave-left)"/>
+    </g>
+
+    <g id="profile-title">
+      <rect x="139" y="176" width="6" height="121" fill="url(#accent-bar)"/>
+      <text x="178" y="245" fill="url(#name-color)" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="94" textLength="455" lengthAdjust="spacingAndGlyphs">Fabrizzio</text>
+      <text x="181" y="296" fill="#e1e9fa" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="28" textLength="703" lengthAdjust="spacingAndGlyphs"><tspan fill="#a1dbf5">Backend</tspan><tspan> Developer </tspan><tspan fill="#e794dd">·</tspan><tspan> Software Engineering</tspan></text>
+    </g>
+
+    <g id="developer-terminal" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">
+      <text x="848" y="207" fill="#6977d0" opacity=".38" font-size="63" font-weight="500" textLength="69" lengthAdjust="spacingAndGlyphs">{}</text>
+      <rect x="946" y="139" width="328" height="106" rx="14" fill="url(#terminal-body)"/>
+      <path d="M960 139h300a14 14 0 0 1 14 14v25H946v-25a14 14 0 0 1 14-14Z" fill="url(#terminal-bar)"/>
+      <rect x="946" y="139" width="328" height="106" rx="14" fill="none" stroke="url(#terminal-border)" stroke-width="1.8"/>
+      <circle cx="970" cy="159.5" r="6.5" fill="#ed76cb"/>
+      <circle cx="992.5" cy="159.5" r="6.5" fill="#aa96f1"/>
+      <circle cx="1015.5" cy="159.5" r="6.5" fill="#53e9ed"/>
+      <text x="965" y="215" fill="#53e9ed" font-size="19">&gt;</text>
+      <text x="986" y="215" fill="url(#prompt-color)" font-size="19" textLength="167" lengthAdjust="spacingAndGlyphs">~/dev/fabrizzio</text>
+      <rect x="1164" y="198.5" width="9.5" height="19.5" rx=".6" fill="url(#accent-bar)"/>
+    </g>
+  </g>
+</svg>
